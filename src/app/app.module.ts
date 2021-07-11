@@ -19,7 +19,8 @@ import { DeckComponent } from './components/deck/deck.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

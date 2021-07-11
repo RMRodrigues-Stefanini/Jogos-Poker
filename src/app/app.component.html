@@ -1,4 +1,6 @@
-<ng-container *ngIf="deck">
+<div style="background-color:#449158 ;">
+<ng-container *ngIf="deck" >
   <app-header (onNewDeck)="onNewDeck($event)"></app-header>
-  <app-deck [deck]="deck" >   </app-deck>
+   <app-deck [deck]="deck" >   </app-deck>
   </ng-container>
+</div>
